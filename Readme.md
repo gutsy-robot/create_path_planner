@@ -19,7 +19,9 @@ path_planner.m computes a collision free path from (0,0) to (10, 10). It first g
 
 Upon running the path_planner.m a figure would appear that will have those randomly generated points as shown in the image below. For visualisation purpose, I have made a tool by which the graph search as it happens can be visualised. It can be clearly in the video here: https://www.youtube.com/watch?v=YtHDf4tnGBbI
 
+![Alt text](resources/initial_search.png)
+
+![Alt text](resources/final_path.png)
+
+
 After the graph search is over the calculated path is given to the robot for execution.
-
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tHDf4tnGBbI/0.jpg)](https://www.youtube.com/watch?v=YtHDf4tnGBbI)
