@@ -2,7 +2,7 @@ function path_planner(serPort)
 
 
     %read the obstacle file into column vector
-    obstacle_file = 'map_custom.txt';
+    obstacle_file = 'map4.txt';
     fid = fopen(obstacle_file);
     tline = fgetl(fid);
     tlines = cell(0,1);
