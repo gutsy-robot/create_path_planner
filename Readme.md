@@ -21,7 +21,5 @@ Upon running the path_planner.m a figure would appear that will have those rando
 
 ![Alt text](resources/Initial_search.png)
 
-![Alt text](resources/Robot_path.fig)
-
 
 After the graph search is over the calculated path is given to the robot for execution.
