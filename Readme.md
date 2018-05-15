@@ -10,7 +10,7 @@ This package makes use of the A* Graph Search Algorithm for finding a collision 
 
 To run this package:
 
-First open the create sim in Matlab. You should also have the obstacle file you want to use in the same directory as the path_planner.m file. The obstacle contains coordinated of static obstacle corners in the world. You can specify the file that you want to use in the path_planner.m code.
+First open the create sim in Matlab. You should also have the obstacle file you want to use in the same directory as the path_planner.m file. The obstacle contains coordinates of static obstacle corners in the world. You can specify the file that you want to use in the path_planner.m code.
 
 Now, load the path_planner.m file. The goal coordinates by default are (10, 10) but can be changed if required.
 Please note the start_point is (0,0) and goal is (10, 10).
