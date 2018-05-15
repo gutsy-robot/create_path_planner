@@ -1,24 +1,25 @@
-Please follow the following instructions to run this code:
+This a path planner for the Matlab iRobot Create Simulator.
 
-1. Run the iRobot Simulator.
+You can download the simulator from here: https://sourceforge.net/projects/createsim/
 
-2. Place the relevant obstacle file in the same directory as the other .m files.
+The exact problem statement is given here: http://www.cse.iitd.ac.in/~subodh/courses/SIV889/exercise.pdf
 
-3. Also edit the name of the obstacle file in the path_planner.m 
+To download additional obstacle files: http://www.cse.iitd.ac.in/~subodh/courses/SIV889/maps/
 
-4. Now load the path_planner.m file for autonomous navigation in the simulator.
+This package makes use of the A* Graph Search Algorithm for finding a collision free path in a world consisting of static obstacles. This package has been developed only for a world with static obstacles but can be easily extended for Dynamic Obstacles as well.
 
-Please note the start_point is (0,0) and goal is (10, 10)
+To run this package:
 
-Upon launching the path_planner.m a plot will pop-up which will show the implementation of a* search algorithm for the randomly generated points.
+First open the create sim in Matlab. You should also have the obstacle file you want to use in the same directory as the path_planner.m file. The obstacle contains coordinated of static obstacle corners in the world. You can specify the file that you want to use in the path_planner.m code.
 
-Please note, delibrate time delay as been introduced so that the plot can be easily visualised.
+Now, load the path_planner.m file. The goal coordinates by default are (10, 10) but can be changed if required.
+Please note the start_point is (0,0) and goal is (10, 10).
 
-Upon, completion of the a* search the final robot path will be displayed on another plot.
+path_planner.m computes a collision free path from (0,0) to (10, 10). It first generates random points in the planning space and then uses A* graph search to find a collision free path.
 
-Now, please switch back to the simulator window to see the robot execute the path.
+Upon running the path_planner.m a figure would appear that will have those randomly generated points as shown in the image below. For visualisation purpose, I have made a tool by which the graph search as it happens can be visualised. It can be clearly in the video here: https://www.youtube.com/watch?v=YtHDf4tnGBbI
 
-Problem: http://www.cse.iitd.ac.in/~subodh/courses/SIV889/exercise.pdf
-Obstacle Files: http://www.cse.iitd.ac.in/~subodh/courses/SIV889/maps/
+After the graph search is over the calculated path is given to the robot for execution.
+
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tHDf4tnGBbI/0.jpg)](https://www.youtube.com/watch?v=YtHDf4tnGBbI)
