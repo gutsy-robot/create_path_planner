@@ -17,3 +17,8 @@ Please note, delibrate time delay as been introduced so that the plot can be eas
 Upon, completion of the a* search the final robot path will be displayed on another plot.
 
 Now, please switch back to the simulator window to see the robot execute the path.
+
+Problem: http://www.cse.iitd.ac.in/~subodh/courses/SIV889/exercise.pdf
+Obstacle Files: http://www.cse.iitd.ac.in/~subodh/courses/SIV889/maps/
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tHDf4tnGBbI/0.jpg)](https://www.youtube.com/watch?v=YtHDf4tnGBbI)
